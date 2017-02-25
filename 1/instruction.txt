@@ -1,5 +1,6 @@
 Ознайомитися з базовий гайдом від протрактора (http://www.protractortest.org/#/)
 Ознайомитися з CSS селекторами (https://www.w3schools.com/cssref/css_selectors.asp)
+Ознайомитися з базовим прикладом в папці examoleProtractor
 
 1 встановити пакети за допомогою пакетного менеджера ноди, 'npm install'
 2 запустити проект 'npm start'
