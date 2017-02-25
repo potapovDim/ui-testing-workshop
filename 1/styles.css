@@ -5,3 +5,10 @@
   color: mediumvioletred;
   font-size: -webkit-xxx-large;
 }
+
+.app-initial {
+  text-align: center;
+  margin: 20% 30% 0;
+  color: green;
+  font-size: bold; 
+}
