@@ -1,0 +1,29 @@
+{
+  "name": "exampleprotractor",
+  "version": "0.0.1",
+  "description": "set up protractor",
+  "main": "-",
+  "scripts": {
+    "webdriver:update": "./node_modules/.bin/webdriver-manager update",
+    "webdriver:start": "./node_modules/.bin/webdriver-manager start",
+    "setup:e2e": "npm run webdriver:update && npm run webdriver:start",
+    "e2e": "./node_modules/.bin/protractor ./protractor.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/potapovDim/ui-testing-workshop.git"
+  },
+  "keywords": [
+    "protractor"
+  ],
+  "author": "potapovDim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/potapovDim/ui-testing-workshop/issues"
+  },
+  "homepage": "https://github.com/potapovDim/ui-testing-workshop#readme",
+  "devDependencies": {
+    "protractor": "^5.1.1",
+    "webdriver-manager": "^12.0.2"
+  }
+}
