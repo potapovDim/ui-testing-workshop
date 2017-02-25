@@ -1,0 +1,17 @@
+<div class="app-initial">
+  <h2>{{title}}</h2>
+  <div>
+    <div>
+      <div>
+        <div class="title">Приклад форми для логіну</div>
+        <div class="title condition">Ім'я повинно містити лише букви, пароль повинен містити лише цифри</div>
+        <input type="text" placeholder="Можливо ім'я" (change)="changeName($event)">
+        <input type="text" placeholder="Скоріше за все пароль" (change)="changePassword($event)">
+        <input type="button" value="Валідувати" (click)="validate()">
+      </div>
+      <div *ngIf="warningName" class="warning">Ім'я не відповідає поставленій вимозі</div>
+      <div *ngIf="warningPassword" class="warning">Пароль не відповідає поставленій вимозі</div>
+      <div *ngIf="success" class="success">Поля відповідають поставленим вимогам, дуже добре</div>
+    </div>
+  </div>
+</div>
