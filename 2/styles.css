@@ -1,0 +1,33 @@
+.loading {
+  text-align: center;
+  margin: 20% 30% 0;
+  text-shadow: red;
+  color: mediumvioletred;
+  font-size: -webkit-xxx-large;
+}
+
+.app-initial {
+  text-align: center;
+  margin: 20% 30% 0;
+  color: green;
+  font-size: bold; 
+}
+
+.clicker {
+  background: green;
+  width: 120px;
+  height: 50px;
+  border: solid;
+  border-radius: 20px;
+}
+
+.clicker:hover {
+  background: yellow;
+}
+
+.click-count {
+  font-size: 30px;
+  text-align: center;
+  width: 50px;
+  margin-left: 50px;
+}
