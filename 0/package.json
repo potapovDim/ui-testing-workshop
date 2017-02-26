@@ -1,0 +1,28 @@
+{
+  "name": "exampleprotractor",
+  "version": "0.0.1",
+  "description": "set up protractor",
+  "main": "-",
+  "scripts": {
+    "test:jasmine": "./node_modules/.bin/jasmine JASMINE_CONFIG_PATH=./jasmine.json",
+    "test:mocha": "./node_modules/.bin/mocha $(find ./ -path '*.testMocha.*')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/potapovDim/ui-testing-workshop.git"
+  },
+  "keywords": [
+    "protractor"
+  ],
+  "author": "potapovDim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/potapovDim/ui-testing-workshop/issues"
+  },
+  "homepage": "https://github.com/potapovDim/ui-testing-workshop#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jasmine": "^2.5.3",
+    "mocha": "^3.2.0"
+  }
+}
