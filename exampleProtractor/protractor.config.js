@@ -13,4 +13,4 @@ exports.config = {
     includeStackTrace: false
   },
   useAllAngular2AppRoots: true
-};
+}

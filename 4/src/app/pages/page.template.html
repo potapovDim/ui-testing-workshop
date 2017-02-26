@@ -1,0 +1,6 @@
+<div class="child-component"> 
+  <input type="text" [ngModel]="data.field1" placeholder="Поле 1" (focus)="focusFild", (blur)="leaveField">
+  <input type="text" [ngModel]="data.field2" placeholder="Поле 2" (focus)="focusFild", (blur)="leaveField">
+  <span *ngIf="showMessage">Вводиш значення в інпути ? так тримати</span>
+  <button>Модифікувати дані</button>
+</div>

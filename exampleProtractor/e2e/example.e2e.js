@@ -1,4 +1,4 @@
-describe('Example', function () {
+describe('Example',  () => {
   beforeEach(() => {
     browser.ignoreSynchronization = true //ігнорує синхронізацію з ангуляром 
     browser.get('https://www.google.com.ua/')// переходимо на гугл урл
@@ -7,3 +7,7 @@ describe('Example', function () {
     expect(browser.getTitle()).toEqual('Google')// перевіряємо
   })
 })
+
+//describe - це тест-с'ют, який групує в собі тетси 
+//it - це тест який виконоє певну перевірку
+//beforeEach - деректива запуску певних команд перед кожним it
