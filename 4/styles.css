@@ -5,7 +5,10 @@
   color: mediumvioletred;
   font-size: -webkit-xxx-large;
 }
-
+.message {
+  font-size: 40px;
+  font-family: fantasy;
+}
 body {
   background: #bdbdc7;
   margin: 0 0;

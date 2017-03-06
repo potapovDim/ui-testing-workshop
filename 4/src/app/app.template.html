@@ -3,8 +3,14 @@
   <div>
     <div>
       <div>
-        <page (getDatasFromChild)="getDatasFromChild"></page>
+        <page (getDatasFromChild)="getDatasFromChild($event)"></page>
       </div>
+    </div>
+    <div *ngIf="data.field1 && data.field2">
+        {{data.field1}} - {{data.field2}}
+    </div>
+    <div *ngIf="data.error">
+        {{data.error}}
     </div>
   </div>
 </div>

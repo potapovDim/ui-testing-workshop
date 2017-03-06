@@ -12,6 +12,7 @@ export class Page {
   }
   showMessage: boolean = false
   emitData(){
+    console.log('click!!!!!!!!!!')
     if(this.data.field1 && this.data.field2) {
       this.getDatasFromChild.emit(this.data)
       this.data = {
@@ -26,9 +27,6 @@ export class Page {
       })
       return
     }
-  }
-  pushPadaToParent(){
-    this.getDatasFromChild.next(this.data)
   }
   focusFild(){
     this.showMessage = true

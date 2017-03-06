@@ -6,8 +6,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title: string = 'Привіт , це тестовий приклад №4 )';
-
-  getDatasFromChild(data: any){
+  data: object = {
+    field1: null,
+    field2: null  
+  };
+  getDatasFromChild(data: object){
     console.log(data)
+    this.data = data
   }
 }
