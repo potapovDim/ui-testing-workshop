@@ -27,7 +27,9 @@ export class Page {
       return
     }
   }
-
+  pushPadaToParent(){
+    this.getDatasFromChild.next(this.data)
+  }
   focusFild(){
     this.showMessage = true
   }
