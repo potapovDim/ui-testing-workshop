@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "webpack-dev-server --open --inline --hot --quiet --progress --port 9999",
+    "start": "webpack-dev-server --open --inline --hot --progress --port 9999",
     "api": "nodemon --harmony ./api/server.js"
   },
   "keywords": [
@@ -14,7 +14,7 @@
   "author": "Potapov Dmitriy",
   "license": "MIT",
   "dependencies": {
-   "@angular/common": "~4.0.0",
+    "@angular/common": "~4.0.0",
     "@angular/compiler": "~4.0.0",
     "@angular/core": "~4.0.0",
     "@angular/forms": "~4.0.0",

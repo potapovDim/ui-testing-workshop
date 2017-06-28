@@ -11,7 +11,6 @@ export class AppComponent {
     field2: null  
   };
   getDatasFromChild(data: object){
-    console.log(data)
     this.data = data
   }
 }

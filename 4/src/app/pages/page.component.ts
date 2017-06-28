@@ -5,14 +5,13 @@ import { Component, EventEmitter, Output } from '@angular/core';
   templateUrl: './page.template.html'
 })
 export class Page {
-  @Output() getDatasFromChild: EventEmitter<any> = new EventEmitter<any>();
+  @Output() getDatasFromChild = new EventEmitter<Object>();
   data: any = {
     field1: null,
     field2: null
   }
   showMessage: boolean = false
   emitData(){
-    console.log('click!!!!!!!!!!')
     if(this.data.field1 && this.data.field2) {
       this.getDatasFromChild.emit(this.data)
       this.data = {
