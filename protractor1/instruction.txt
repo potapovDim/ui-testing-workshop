@@ -1,20 +1,20 @@
 Ознайомитися з базовий гайдом від протрактора (http://www.protractortest.org/#/)
 Ознайомитися з CSS селекторами (https://www.w3schools.com/cssref/css_selectors.asp)
-Ознайомитися з базовим прикладом в папці examoleProtractor
+Ознайомитися з базовим прикладом в папці exampleProtractor
 
 1 встановити пакети за допомогою пакетного менеджера ноди, 'npm install'
 2 запустити проект 'npm start'
 
-якщо проект запустився і відкрився браузер - все ок, якщо ні розібратися що не так
+якщо проект запустився і відкрився браузер - все ок, якщо ні - розібратися що не так
 
 3 встановити додаткові паке (protractor, webdriver-manager)
   посилання protractor "https://www.npmjs.com/package/protractor" 
   на сторінці - npm protractor - також є посилання на API(https://ru.wikipedia.org/wiki/API) та tutorial
   посилання webdriver-manager "https://www.npmjs.com/package/webdriver-manager" 
   на сторінці є приклади як працювати з менеджером
-4 зробити конфірураційний файл для protractor, в цій дерикторії 'protractor.config.js'
+4 зробити конфігураційний файл для protractor, в цій дирикторії 'protractor.config.js'
 
-  базовий коніг
+  базовий конфіг
   ##########################################
   exports.config = {
     framework: 'jasmine', //який фрейм-ранер
