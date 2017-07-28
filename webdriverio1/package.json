@@ -1,0 +1,22 @@
+{
+  "name": "wdio",
+  "version": "1.0.0",
+  "description": "webdriverio example",
+  "scripts": {
+    "test": "./node_modules/webdriverio/bin/wdio ./wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/mocha": "^2.2.32",
+    "@types/webdriverio": "^4.4.0",
+    "chai": "^3.5.0",
+    "node-fetch": "^1.7.1",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.0.6",
+    "wdio-mocha-framework": "^0.5.10",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "webdriverio": "^4.8.0"
+  }
+}
