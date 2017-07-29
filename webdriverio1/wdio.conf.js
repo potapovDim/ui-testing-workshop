@@ -140,7 +140,7 @@ exports.config = {
     // variables, such as `browser`. It is the perfect place to define custom commands.
     before: function (capabilities, specs) {
         require('ts-node').register({
-            project: 'app'
+            project: 'spec'
         });
     },
     //
