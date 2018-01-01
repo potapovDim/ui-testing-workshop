@@ -1,0 +1,16 @@
+{
+  "name": "protractor-weblium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor",
+    "wd:update": "webdriver-manager update"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^4.1.0",
+    "protractor": "^5.2.2"
+  }
+}
