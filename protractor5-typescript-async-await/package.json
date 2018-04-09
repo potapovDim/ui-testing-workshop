@@ -1,16 +1,20 @@
 {
   "scripts": {
     "postinstall": "webdriver-manager update",
-    "test": "protractor ./built/protractor.config.js",
-    "tsc": "tsc"
+    "test": "protractor ./protractor.config.js",
+    "tsc": "tsc",
+    "click": "lite-server"
   },
   "devDependencies": {
-    "@types/mocha": "^2.2.41",
-    "@types/node": "^8.0.24",
-    "chai": "^4.1.1",
-    "mocha": "^3.5.0",
-    "protractor": "^5.1.1",
-    "tslint": "^5.0.0",
-    "typescript": "^2.5.1"
+    "@types/mocha": "2.2.41",
+    "@types/node": "8.0.24",
+    "chai": "4.1.1",
+    "mocha": "3.5.0",
+    "protractor": "5.1.1",
+    "tslint": "5.0.0",
+    "typescript": "2.5.1"
+  },
+  "dependencies": {
+    "lite-server": "2.3.0"
   }
 }

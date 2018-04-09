@@ -1,6 +1,5 @@
-import { browser, Config } from 'protractor'
 
-const conf: Config = {
+const conf = {
     directConnect: true,
     capabilities: {
         browserName: 'chrome',
@@ -20,6 +19,6 @@ const conf: Config = {
         reporter: 'spec'
     },
     SELENIUM_PROMISE_MANAGER: false
-}
-
-exports.config = conf
+};
+exports.config = conf;
+//# sourceMappingURL=/Users/dmitriypotapov/Documents/ui-testing-workshop/protractor5-typescript-async-await/built/protractor.config.js.map
