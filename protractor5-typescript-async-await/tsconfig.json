@@ -7,6 +7,9 @@
     "outDir": "built",
     "experimentalDecorators": true
   },
+  "include": [
+    "./"
+  ],
   "exclude": [
     "node_modules/"
   ]

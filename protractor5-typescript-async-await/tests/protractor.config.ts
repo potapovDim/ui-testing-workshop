@@ -1,23 +1,31 @@
 import { browser, Config } from 'protractor'
 
+
 const conf: Config = {
-    directConnect: true,
-    capabilities: {
+    // directConnect: true,
+    multiCapabilities: [{
         browserName: 'chrome',
         chromeOptions: {
             args: ['--window-size=1500,1000']
         },
         shardTestFiles: false,
         maxInstances: 1
-    },
+    }],
     specs: [
-        './specs/**/a.spec.js',
+        './tests/**/*spec.ts',
     ],
     framework: 'mocha',
+    onPrepare: async () => {
+        await browser.waitForAngularEnabled(false)
+        // indexObjserver.subscribeOnEvent('TEST_FAIL', (data) => {
+        //     // console.log(data, '!!!!!!!!!!!!!!!!!!!!!!!!!!!')
+        //     process.exit(100)
+        // })
+    },
     mochaOpts: {
         timeout: 10000,
-        fullTrace: true,
-        reporter: 'spec'
+        // fullTrace: true,
+        reporter: 'mocha-allure-reporter'
     },
     SELENIUM_PROMISE_MANAGER: false
 }
