@@ -32,7 +32,7 @@
     "koa-cors": "0.0.16",
     "koa-logger": "^2.0.1",
     "koa-router": "^5.4.0",
-    "mongoose": "^4.8.6"
+    "mongoose": "^5.7.7"
   },
   "devDependencies": {
     "@types/jasmine": "^2.5.36",
